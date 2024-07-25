@@ -4,6 +4,9 @@
 Este projeto foi desenvolvido utilizando o framework Flask em Python, com HTML e CSS para a construção de uma interface web. O objetivo é fornecer informações sobre a história e os principais títulos de alguns dos maiores clubes de futebol do Brasil, incluindo Santos FC, São Paulo FC e Palmeiras.
 
 ![Imagem do Projeto](static/images/projeto01.png)
+![Imagem do Projeto](static/images/projeto02.png)
+![Imagem do Projeto](static/images/projeto03.png)
+![Imagem do Projeto](static/images/projeto04.png)
 
 ## Funcionalidades
 - Página inicial com links para páginas dedicadas a cada clube.
