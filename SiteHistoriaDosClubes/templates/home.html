@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Home</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styleHome.css') }}">
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="santos">Santos FC</a></li>
+                <li><a href="saopaulo">São Paulo FC</a></li>
+                <li><a href="palmeiras">Palmeiras</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <h1 class="title">Histórias e Títulos dos Clubes</h1>
+        
+        <section class="clubes">
+            <div class="quadrado">
+                <a href="santos">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Santos_Logo.png/768px-Santos_Logo.png" alt="História do Santos FC">
+                    <h2 class="descricao">História do Santos FC</h2>
+                </a>
+            </div>
+
+            <div class="quadrado">
+                <a href="saopaulo">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Brasao_do_Sao_Paulo_Futebol_Clube.svg/langpt-640px-Brasao_do_Sao_Paulo_Futebol_Clube.svg.png" alt="História do São Paulo">
+                    <h2 class="descricao">História do São Paulo</h2>
+                </a>
+            </div>
+
+            <div class="quadrado">
+                <a href="palmeiras">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Palmeiras_logo.svg/2048px-Palmeiras_logo.svg.png" alt="História do Palmeiras">
+                    <h2 class="descricao">História do Palmeiras</h2>
+                </a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

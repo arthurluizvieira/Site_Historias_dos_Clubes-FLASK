@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Titillium Web", sans-serif;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+
+}
+
+.menu a:hover {
+    color: #ff7100;
+}
+
+.title {
+    text-align: center;
+    margin: 40px 0;
+    font-size: 2.5em;
+    color: #ff7100;
+}
+
+.clubes {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+
+}
+
+.quadrado {
+    width: 300px;
+    height: 300px;
+    background-color: #222;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s, background-color 0.3s;
+}
+
+.quadrado:hover {
+    transform: scale(1.05);
+    background-color: #333;
+}
+
+.quadrado img {
+    max-width: 80%;
+    max-height: 200px;
+    margin-bottom: 10px;
+}
+
+.descricao {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #ff7100;
+}
